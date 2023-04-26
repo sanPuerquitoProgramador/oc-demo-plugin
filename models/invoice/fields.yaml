@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    invoice:
+        label: Invoice
+        type: text
+        span: full
+    items:
+        label: Items in the invoice
+        type: relation
+        nameFrom: item

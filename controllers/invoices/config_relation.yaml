@@ -1,0 +1,11 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+items:
+    label: Invoice Items
+    list: $/polilla/demo/models/item/columns.yaml
+    form: $/polilla/demo/models/item/fields.yaml
+    structure:
+        showReorder: true
+        showTree: false

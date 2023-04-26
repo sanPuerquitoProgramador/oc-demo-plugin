@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Invoice
+
+# Model Form Field configuration
+form: $/polilla/demo/models/invoice/fields.yaml
+
+# Model Class name
+modelClass: Polilla\Demo\Models\Invoice
+
+# Default redirect location
+defaultRedirect: polilla/demo/invoices
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: polilla/demo/invoices/update/:id
+    redirectClose: polilla/demo/invoices
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: polilla/demo/invoices
+    redirectClose: polilla/demo/invoices
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
